@@ -1,0 +1,36 @@
+import React from "react";
+import Container from "react-bootstrap/Container"
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import inclimg from "../images/Inclusive.png"
+import enthimg from "../images/Enthusiastic.png"
+import accountimgl from "../images/AccountableLogo.png"
+import Linking from "react";
+import macbook from "../images/macbook.png"
+export default function Section() {
+  return (
+    <div className={"monkmode"}>
+      <div className={"section-content"} >
+        <Container>
+          <Row>
+            <div>
+              <h4>
+                A personal development group:
+              </h4>
+              <div className = {"monkTitle"}>
+              <h3>
+                MONK MODE
+              </h3>
+              <h5>
+                The power of redirection
+              </h5>
+              </div>
+            </div>
+
+            </Row>
+            
+        </Container>
+      </div>
+    </div>
+  );
+}

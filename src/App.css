@@ -1,0 +1,517 @@
+
+:root {
+  background-color:  #293247;
+  height: 100%;
+  width: 100%;
+  padding-bottom:60px;
+  overflow-x: hidden;
+  
+}
+
+.nav {
+  background-color: #3c4d73;
+  padding-left: 4vh;
+  min-height: 7em;
+}
+
+.nav-items{
+  font-size: 2vh;
+  letter-spacing: -1px;
+
+}
+
+.nav-items:hover{
+  font-weight: bold;
+  color: #ffffff;
+
+}
+.nav-logo
+{
+  height: 3vh;
+  width: 3vh;
+}
+.nav-logo:hover
+{
+  font-weight:  #000000 ;
+}
+.facebook{
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background:  #2e364b url("./images/facebooklogowhite.png") no-repeat;
+  
+}
+.facebook:hover
+{
+  background:  #2e364b url("./images/facebooklogoblack.png") no-repeat;
+}
+
+
+.navbar-title{
+  display: inline;
+  color: #ffffff;
+  font-size: 5vh;
+  font-family: "DM Sans", sans-serif ;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.navbar-light .navbar-toggler-icon{
+ background-image : url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+  
+}
+.navbar-light .navbar-nav .nav-link
+{
+  color: white;  
+  padding-right:2em;
+  padding-left:2em;
+  padding-top: 1em;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color:white;
+}
+.nav-content{
+  align-content: right;
+}
+
+
+
+/* intro page */
+
+
+.para {
+  display: inline;
+  margin-left: 2rem;
+  color: #ffffff;
+}
+
+
+.intro {
+  background: #293247;
+  color: white;
+  text-align: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: bold;
+  overflow-x: hidden;
+  padding-top: 3em;
+  
+}
+
+.intro-content {
+  background-color: #293247;
+  margin: 0 auto;
+  padding: 40px;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+.mobile{
+  background-color:white;
+}
+ul {
+  padding-left: 00px;
+  padding-right: 40px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+.intro h1
+{
+  font-size: 4vw;
+  font-family: "Roboto";
+  font-weight: normal;
+}
+h1 {
+  display: block;
+  font-size: 5em;
+  margin-top: 3em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  font-weight: bold;
+}
+
+.intro .container
+{
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+.intro h2 {
+  display: block;
+  font-size: 2.4vw;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: -1px;
+  font-weight: 300;
+    
+}
+.intro-logo {
+  height: 65vh;
+}
+.currentinit {
+  height: 3vw;
+  margin-bottom: 1.5em;
+}
+
+.intro-logo-mobile
+{
+  width: 70vw;
+}
+.intro-nav {
+  background-color: #293247;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+}
+
+.meditation {
+  top:50%;
+  left: 50%;
+  margin-top: -50px;
+  color: black;
+  overflow-x: hidden;
+}
+.meditation h3
+{
+  color: #2e364b;
+  font-family:"DM Sans"; 
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+.meditation h2
+{
+  color: #2e364b;
+  font-family:"DM Sans"; 
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 10px;
+}
+
+
+.meditation .laptop h5 
+{
+  display: inline-block;
+  padding:2px;
+  font-family: "DM Sans";
+  font-size: 25px;
+  font-weight: bolder;
+}
+.meditation .laptop h6 
+{
+  display: inline-block;
+  padding:2px;
+  font-family: "DM Sans";
+  font-size: 1.2em;
+}
+
+
+.meditation .mobile h5 
+{
+  display:block;
+  padding:2px;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: bolder;
+}
+.meditation .mobile h6 
+{
+  font-family: "DM Sans";
+  font-size: 0.8em;
+  display:block;
+  padding:2px;
+}
+.meditation a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.meditation a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.med-point
+{
+  width: 40px;
+  padding-top: 3px;
+  padding-right: 3px;
+  
+}
+.med-quote{
+  position:relative;
+  padding:20px;
+  box-sizing:border-box;
+  background-color: lightgrey;
+  text-align: center;
+  font-family: 'DM Sans';
+  color: black;
+  font-size: 1.5em;
+  border-radius: 20px;
+  margin-top: 1em;
+}
+
+.macbook-mobile
+{
+  width:300px;
+  
+}
+
+.macbook
+{
+  width:75vh;
+  height: 50vh;
+  margin-bottom: 20px ;
+}
+.centered {
+  position: flex;
+  top: 50%;
+  left: 50%;
+  margin-top: 30vh;
+  /* bring your own prefixes */
+  /*transform: translate(-50%, -50%);*/
+}
+.meditation .section-content {
+  background: #ffffff;
+  margin: 0 auto;
+  padding: 40px;
+  min-height: 0;
+  min-width: 100%;
+
+}
+.monkmode .section-content {
+  background: #c6ab9a; 
+  margin: 0 auto;
+  padding: 40px;
+  min-width: 100%;
+
+
+}
+
+.monkmode .btn-light
+{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 14px 5px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  
+  }
+
+  .monkmode .btn-light:hover
+  {
+    background-color: darkgrey;
+  }
+
+.monkmode h3
+{
+  color: #BC5E23;
+  font-family:"DM Sans"; 
+  font-weight: bold;
+  font-size: 3em;
+}
+
+
+.monkmode h5
+{
+  color: #BC5E23;
+  font-family:"DM Sans"; 
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.monkmode .monkTitle
+{
+  border-right:solid #BC5E23 7px; 
+
+
+}
+
+.monkmode .monkQuote{
+  display: inline-block;
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-style: italic; 
+  width: 60vh;
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+
+.monkmode .apps{
+  align-content: center;
+  padding-top: 70px;
+}
+.monkmode .appBox{
+  position:relative;
+  padding:20px;
+  width: 40%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-sizing:border-box;
+  background-color: lightgrey;
+  font-family: 'DM Sans';
+  color: black;
+  font-size: 1.5em;
+  border-radius: 20px;
+}
+.monkmode .appBoxMobile{
+  padding-top:20px;
+  margin-bottom: 10px;
+  box-sizing:border-box;
+  background-color: lightgrey;
+  font-family: 'DM Sans';
+  color: black;
+  font-size: 1.5em;
+  border-radius: 20px;
+}
+.monkmode .appimg
+{
+  width: 10vh;
+  height: 10vh;
+  margin-top: .5em;
+}
+.monkmode h2{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.monkmode p
+{
+  font : "DM-Sans";
+  font-size: .7em;
+  font-weight: 100; 
+}
+.monkmode h6
+{
+  font: "DM-Sans";
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+}
+.monkmode h6::after {
+  content: '';
+  position: absolute;
+  left: 48%;
+  display: inline-block;
+  height: 1.3em;
+  width: 5%;
+  border-bottom: 6px solid;
+  margin-top: 5px;
+}
+.monkmode .monkpics{
+  height: 12em;
+  width: 11em;
+}
+.monkmode .monkpicsMobile{
+  height: 10em;
+  width: 9em;
+}
+.meditation .textBlock
+{
+  border-right:solid black 5px;
+  margin-top: 3em ;
+  margin-right: 1em;
+}
+
+.meditation .textBlockMobile
+{
+  margin-top: 3em ;
+}
+.meditation .textBlock h6
+{
+  display: block;
+  font-weight: normal;
+}
+.meditation .subtitle h2
+{
+  color: black;
+  margin-top: 1em;
+  padding-left: 0;
+  font-size: 2.5em;
+}
+.meditation .text p
+{
+  color: black;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+.nav-item > .active {
+  border-bottom: 1px solid #333;
+}
+.devImg
+{
+  margin-top: 16px ;
+  width:25vh;
+  height:25vh;
+}
+.devImgmobile
+{
+  margin-top: 16px ;
+  width:20vh;
+  height:20vh;
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color:lightgrey;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+
+}
+.footer .h1mobile
+{
+  font-style: "DM Sans";
+  font-size: 1.5em ;
+  padding-right: 0;
+  display: inline;
+  border-right: none;
+}
+.footer h1
+{
+  font-style: "DM Sans";
+  font-size: 2em ;
+  border-right: 4px solid black;
+  padding-right: .5em ;
+  display: inline;
+}
+
+.logo{
+  height: 5em;
+  width: 9em;
+}
+.contacts{
+  height: 2em;
+  width: 2em;
+  display: inline;
+  margin-left: 1em ;
+  margin-bottom: 1em;
+}
+.footer .middle-align
+{
+  padding-top: 15px;
+}
